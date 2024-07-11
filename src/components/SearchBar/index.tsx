@@ -25,7 +25,7 @@ const SearchBar = () => {
     >
       <div className="flex items-center gap-2 border border-gray-700 rounded-lg p-2 w-[40rem] focus-within:ring-2 focus-within:ring-blue-500 focus-within:border-transparent text-white">
         <input
-          className="flex-1 outline-none text-white"
+          className="flex-1 outline-none text-black"
           type="text"
           placeholder="Search your dream accessory here..."
           onChange={handleChange}
